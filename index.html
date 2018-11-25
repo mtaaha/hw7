@@ -1,0 +1,59 @@
+<!--
+Name: Mohammad Taaha
+91.61 Assignment:  Using the jQuery Validation Plugin with Your Dynamic Table
+Mohammad Taaha, UMass Lowell Computer Science Student,mohammad_taaha@student.uml.edu
+Copyright (c) 2018 by Mohammad Taaha.  All rights reserved.  May be
+freely copied or excerpted for educational purposes with credit to the
+author.
+Created on 11/25/2018
+Description:This webpage will take an input from the user background
+and create a dynamic multiplication table. If the user tries to enter anything besides
+a number, there will be an error message thrown that will direct the user to enter the correct password.
+   -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body>
+  <div class = "container">
+  <div class="page-header">
+     <h1>
+        Multiplication table
+     </h1>
+  </div>
+  <div class= "jumbotron">
+  <form id="register-form">
+    <div>
+    First Horizontal Axis: <input type="number" id = "fh_axis" name="fh_axis"><br>
+    </div>
+
+    <div>
+
+    Second Horizontal Axis: <input type="number" id = "sh_axis" name="sh_axis"><br><br>
+  </div>
+
+    <div>
+       First Vertical Axis: <input type="number" id = "fv_axis" name="fv_axis"><br><br>
+     </div>
+     <div>
+    Second Vertical Axis: <input type="number" id = "sv_axis" name="sv_axis"><br><br>
+  </div>
+  </form>
+
+  <button onclick="multiplier()">Submit</button>
+  <p2 id = "table">
+
+</div>
+</div>
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.3.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/jquery.validate.min.js"></script>
+  <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.13.0/additional-methods.min.js"></script>
+  <script src="js/validation.js"></script>
+  <script src="js/javascript.js"></script>
+
+
+</body>
+</html>
